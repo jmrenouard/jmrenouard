@@ -1,7 +1,7 @@
 ### Hi there 👋
 
 
-- 📫 How to reach me: jmrenoaurd@gmail.com
+- 📫 How to reach me: jmrenouard@gmail.com
 <!--
 **jmrenouard/jmrenouard** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
