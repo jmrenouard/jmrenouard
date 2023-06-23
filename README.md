@@ -16,7 +16,8 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-
-![JmRenouard's GitHub stats](https://github-readme-stats.vercel.app/api?username=jmrenouard&show_icons=true&theme=radical)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jmrenouard&hide_progress=true)
+![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=jmrenouard&theme=nord_dark)
+![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=jmrenouard&theme=nord_dark)
+![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=jmrenouard&theme=nord_dark)
+![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=jmrenouard&theme=nord_dark)
+![](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=jmrenouard&theme=nord_dark)
