@@ -3,7 +3,7 @@
 
 - 📫 How to reach me: jmrenouard@gmail.com
 
-### Beer are my only motivation in life after:
+### Beers are my only motivation in life after:
 
  - My Wife
  - My Children
@@ -18,7 +18,8 @@
  - MySelf
  - My Hollidays
 
-   
+  So, don't hesitate, your money will be well used, you are investing in the future, invest on Me Now =>  [!["Buy Us A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/jmrenouard)
+
    
 <!--
 **jmrenouard/jmrenouard** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
