@@ -3,7 +3,7 @@
 
 - 📫 How to reach me: jmrenouard@gmail.com
 
-### Beers are my only motivation in life after:
+### Coffees / Beers are my only motivation in life after:
 
  - My Wife
  - My Children
@@ -18,7 +18,7 @@
  - MySelf
  - My Hollidays
 
-  So, don't hesitate, your money will be well used, you are investing in the future, invest on Me Now 
+  ** So, don't hesitate, your money will be well used, you are investing in the future, invest on Me Now **
   [!["Buy Us A Beer"](https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png)](https://www.buymeacoffee.com/jmrenouard)
    
 <!--
