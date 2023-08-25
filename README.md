@@ -2,6 +2,24 @@
 
 
 - 📫 How to reach me: jmrenouard@gmail.com
+
+### Beer are my only motivation in life after:
+
+ - My Wife
+ - My Children
+ - My Mother
+ - My Friends
+ - My Coding Activities
+ - My Dog
+ - My Endless Speeches
+ - My Unbeakabke Enthusiasm
+ - My Million of project in my Head
+ - My Work
+ - MySelf
+ - My Hollidays
+
+   
+   
 <!--
 **jmrenouard/jmrenouard** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
