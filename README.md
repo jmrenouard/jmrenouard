@@ -18,7 +18,7 @@
  - MySelf
  - My Hollidays
 
-  So, don't hesitate, your money will be well used, you are investing in the future, invest on Me Now =>  [!["Buy Us A Coffee"]([https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png](https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png))](https://www.buymeacoffee.com/jmrenouard)
+  So, don't hesitate, your money will be well used, you are investing in the future, invest on Me Now =>  [!["Buy Us A Beer"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png](https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png)](https://www.buymeacoffee.com/jmrenouard)
    
 <!--
 **jmrenouard/jmrenouard** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
