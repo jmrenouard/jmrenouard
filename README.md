@@ -16,7 +16,7 @@
  - My Million of project in my Head
  - My Work
  - MySelf
- - My Hollidays
+ - My Holidays
 
   ** So, don't hesitate, your money will be well used, you are investing in the future, invest on Me Now **
   
