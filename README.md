@@ -1,3 +1,13 @@
+---
+title: README
+description: 
+published: true
+date: 2025-01-06T16:16:06.249Z
+tags: 
+editor: markdown
+dateCreated: 2025-01-06T16:11:46.184Z
+---
+
 ### Hi there 👋
 
 
@@ -18,7 +28,7 @@
  - MySelf
  - My Holidays
 
-  ** So, don't hesitate, your money will be well used, you are investing in the future, invest on Me Now **
+ **So, don't hesitate, your money will be well used, you are investing in the future, invest on Me Now **
   
   [!["Buy Us A Beer"](https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png)](https://www.buymeacoffee.com/jmrenouard)
    
@@ -37,7 +47,5 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 ![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=jmrenouard&theme=nord_dark)
-![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=jmrenouard&theme=nord_dark)
-![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=jmrenouard&theme=nord_dark)
-![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=jmrenouard&theme=nord_dark)
-![](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=jmrenouard&theme=nord_dark)
+![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=jmrenouard&theme=nord_dark)![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=jmrenouard&theme=nord_dark)
+![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=jmrenouard&theme=nord_dark)![](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=jmrenouard&theme=nord_dark)
