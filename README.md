@@ -2,7 +2,7 @@
 title: README
 description: 
 published: true
-date: 2025-01-06T16:16:06.249Z
+date: 2025-10-06T16:16:06.249Z
 tags: 
 editor: markdown
 dateCreated: 2025-01-06T16:11:46.184Z
@@ -17,7 +17,6 @@ dateCreated: 2025-01-06T16:11:46.184Z
 
  - My Wife
  - My Children
- - My Mother
  - My Friends
  - My Coding Activities
  - My Dog
