@@ -31,6 +31,15 @@ Through my engineering consultancy [**LightPath**](https://lightpath.fr) (founde
 
 My current engineering work spans five pillars: **high-availability & multi-master relational databases** (MySQL, MariaDB Galera, PostgreSQL HA/Multi-Master), **deterministic System-1 AI guardrails** (`MicroLLM`), **zero-dependency CIS/STIG security compliance** (`cis_benchmarks_tools`), **fail-closed Rust & Go systems tooling** (`FileCleaner`, `api_executor`), and **open technical documentation & training standards** (`ASD-STF100`, `lightpath-training-portal`).
 
+```mermaid
+flowchart LR
+    Core["LightPath Engineering Pillars"] --> Data["Data & HA: MySQLTuner, ClusterPG, multi-db"]
+    Core --> Guardrails["AI Guardrails: MicroLLM (micro-jev)"]
+    Core --> Security["Compliance: cis_benchmarks_tools"]
+    Core --> Systems["Systems Tooling: FileCleaner, api_executor"]
+    Core --> Training["Standards & LMS: ASD-STF100, LMS Portal"]
+```
+
 ---
 
 ## ⚡ Key Engineering Metrics
@@ -99,7 +108,7 @@ microllm guardrail "DROP TABLE users;" --policy strict_enterprise
 [![License](https://img.shields.io/badge/License-GPL--3.0-blue?style=flat-square)](https://github.com/jmrenouard/cis_benchmarks_tools/blob/main/LICENSE)
 
 An automated security compliance auditing engine (`v2.10.0`) built to enforce Center for Internet Security (CIS) Benchmarks and DISA STIG baselines in regulated, air-gapped environments:
-* **100% Pure Python 3.8+ Stdlib**: `35` modules (~`25,600` lines, `314` unit tests) with zero external PyPI dependencies, eliminating supply-chain attack surface on isolated banking and critical-infrastructure hosts.
+* **100% Pure Python 3.8+ Stdlib**: `35` modules (~`25,600` lines, `361` unit tests) with zero external PyPI dependencies, eliminating supply-chain attack surface on isolated banking and critical-infrastructure hosts.
 * **18 Benchmarks & 887 Verified Controls**: Covers MariaDB (`10.6`, `10.11`), MySQL Enterprise (`8.0`, `8.4 LTS`, `9.7 Innovation`) & Community (`8.4 LTS`, `9.7 Innovation`), PostgreSQL (`16`, `17`, `18`), MongoDB (`7.0`, `8.0`), Apache Cassandra (`4.0`, `4.1`, `5.0`), and Red Hat Enterprise Linux (`8`, `9`, `10` CIS + DISA STIG).
 * **4-Tier Transport & Offline Telemetry**: Evaluates Local shell, Agentless SSH, Local Docker, and Remote SSH+Docker targets with child-env credential protection (`MYSQL_PWD`, `PGPASSWORD`, `CIS_DB_PASSWORD`), EN/FR i18n, and zero-CDN inline SVG HTML/JSON/XML/TXT reports.
 
@@ -180,7 +189,7 @@ stf-check --mode procedural docs/02-guides-pratiques/rediger-procedure-stf100.md
 A lightweight, self-hosted Learning Management System (`v2.0.0`) written in zero-dependency PHP `>= 8.3` with strict zero-CDN Content Security Policy (`style-src 'self'`, SHA-256 `script-src`) and dual `JsonStorage` / transactional `PdoStorage` (`pgsql`/`mysql`/`sqlite`):
 * **Per-Learner Docker PostgreSQL 18 Sandboxes**: Provisions isolated `lp_pg18_user_<id>` containers (`12` Sakila tables, `4` `pgbench` tables / `1,000` accounts, plus `cloud_simulated` fallback) with an interactive SQL workbench, automated boolean oracle checks, and chaos scenarios.
 * **Qualiopi & SCORM 1.2 Automation**: Covers the full `7`-pillar Qualiopi audit trail (`15`-Q diagnostic, dual-signed attendance, `40`-Q exam at `75%` pass threshold, CSPRNG QR certificates, J+60 surveys, OPCO CSV) and outbound **SCORM 1.2** `.zip` exports.
-* **Verified Multi-Course Scale**: Configurable via `10` feature flags (`4` profiles) and `LMS_COURSE_ROOT` scaling from bundled demo packs to `34`-module PostgreSQL 18 curricula (`727/727` Mode A, `741/741` Mode B, `405/405` HTTP tests + Playwright E2E).
+* **Verified Multi-Course Scale**: Configurable via `10` feature flags (`4` profiles) and `LMS_COURSE_ROOT` scaling from bundled demo packs to `34`-module PostgreSQL 18 curricula (`745/745` unit tests, `344/344` adversarial B1–B5, `405/405` HTTP tests + Playwright E2E).
 
 ```bash
 cp .env.example .env && docker compose up -d
@@ -207,7 +216,7 @@ An enterprise Zero-Trust remote task execution and automation platform written i
 
 * [**multi-db-docker-env**](https://github.com/jmrenouard/multi-db-docker-env) (`v2.6.4`, `GPL-3.0`): Unified Go CLI (`./mdb` / `mdb.cmd`) orchestrating **31 active E2E-verified environments** (`11` standalone + `20` cluster/HA/multi-master) covering MySQL `8.4`/`9.7`, MariaDB `10.11`–`12.3` (Galera & Replication), Percona `8.4`, PostgreSQL `15`–`18` (Patroni, PgPool-II, pgEdge/Spock 5, Bucardo, Citus `14.2`, YT-Cluster, CockroachDB `v25.4`, YugabyteDB `2026.1.3`), and MongoDB `7.0`/`8.0` with Traefik v3 and HAProxy LTS.
 * [**dbscripts**](https://github.com/jmrenouard/dbscripts) (`v1.0.0`, `GPL-3.0`): Multi-vendor DBA automation suite for MariaDB/Galera, MySQL, PostgreSQL, MongoDB, Cassandra, and Oracle—bundling `18` operational scripts (`mbbackup.sh`/`mbrestore.sh`, `mysqldump_database_splitter.py`, `show_cql_grants.py`, `ora2mariadb.sh`), `17` Ansible playbooks/roles, `8` Docker labs (`mysql_docker.py`, 3-node Galera+HAProxy), and `11` SQL scripts (`60/60` unit tests).
-* [**patroni-lab-rhel8**](https://github.com/jmrenouard/patroni-lab-rhel8) (`GPL-3.0`): Automated PostgreSQL `17` High Availability cluster testbed on Red Hat UBI 8 orchestrating Patroni, `etcd`, HAProxy, and PgBouncer with end-to-end TLS & mTLS.
+* [**patroni-lab-rhel8**](https://github.com/jmrenouard/patroni-lab-rhel8) (`v1.0.0`, `GPL-3.0`): Automated PostgreSQL `17` High Availability cluster testbed on Red Hat UBI 8 orchestrating Patroni, `etcd`, HAProxy, and PgBouncer with end-to-end TLS & mTLS.
 * [**pg_logical_migrator**](https://github.com/jmrenouard/pg_logical_migrator) (`v1.4.1`, `MIT`): Python `3.9+` automated `17`-step logical replication orchestrator for near-zero-downtime PostgreSQL migrations (LOB & `UNLOGGED` tables sync, SQL/shell hardening, HTML reports), published on [Docker Hub](https://hub.docker.com/r/jmrenouard/pg_logical_migrator).
 * [**grafana-tools**](https://github.com/jmrenouard/grafana-tools) (`v1.0.1`, `GPL-3.0`): Python CLI and Ansible playbooks shipping `20+` pre-built YAML observability dashboards for MySQL, PostgreSQL, MongoDB, Cassandra, and Linux, published on [Docker Hub](https://hub.docker.com/r/jmrenouard/grafana-tools).
 
